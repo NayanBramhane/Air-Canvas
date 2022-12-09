@@ -1,0 +1,32 @@
+1. Open the terminal of vscode and type the below command
+make sure to keep this venv folder in same folder as your python file.
+
+python -m venv C:\Users\"your folder path where you want your venv"\venv
+
+2. Enter below line in that specific folder's terminal
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+3. Then enter line in the terminal which is top line or first line in the terminal
+Looks something like below 	|
+			   	|
+			   	v
+
+& "h:/Air Canvas OpenCV/venv/Scripts/Activate.ps1"
+
+Do it again if u don't see something like this in terminal name or whatever it is
+				|
+			   	|
+			   	v
+
+(venv) PS H:\Air Canvas OpenCV>
+
+4. And now enter this
+
+Set-ExecutionPolicy -ExecutionPolicy Default -Scope Process
+
+5. Make sure to download the requirements.txt, type below command to download OpenCV and Numpy
+
+pip install opencv-python
+
+6. And now run the python file.
